@@ -49,10 +49,17 @@ nav{
 #rodape{
 	width: 100%;
 	height: auto;
+<<<<<<< HEAD
 	background-color: rgb(171, 0, 0);
 	font-family: Arial, Helvetica, sans-serif;
 	color: #fff;
 	font-size: 00.7em;
+=======
+	background-color: red;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 0.7em;
+>>>>>>> b55295d242ae675124c5e3061ff635aab25a6311
 	text-align: center;
 }
 #rodape p{
