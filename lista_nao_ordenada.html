@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aulas HTML-5 e CSS-3">
+    <meta name="keywords" content="HTML, CSS e JavaScript">
+    <meta name="author" content="Uriel">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="icon" href="imagem/favicon.ico" type="image/x-icon">
+    <title>LISTA 2 HTML</title>
+
+</head>
+
+<body>
+    <header id="topo"> <!--Topo-->
+        <div id="acessibilidade">    
+            <ul id="atalhos">
+                <li><a href="#conteudo" accesskey="1" title="Ir para o conteudo">Ir para o conteúdo [1]</a></li>
+                <li><a href="#menu" accesskey="2" title="Ir para menu de navegação">Ir para menu [2]</a></li>
+                <li><a href="#rodape" accesskey="3" title="Ir para rodap[e">Ir para rodapé</a></li>
+                <li id="pgacess"><a href="acessibilidade.html" title="Ir para a pagina de acessibilidade">ACESSIBILIDADE</a></li>
+                <li class="contraste"><a href="javascript:void(0) ;" id="contraste" >CONTRASTE</a></li>
+                <li class="contraste"><a href="javascript:void(0) ;" id="semcontraste">SEM CONTRASTE</a></li>
+                <li class="fonte"><a href="javascript:void(0) ;" id="aumenta">A +</a></li>
+                <li class="fonte"><a href="javascript:void(0) ;" id="diminui">A +</a></li>
+
+           </ul>
+
+       </div>
+        <img src="imagem/logo.png" alt="Logo Obra Social Dom Bosco horizontal azul, branca e vermelha">
+        <img id="assistencia" src="imagem/assistencia-e-desenvolvimento-social_centralizado.png" alt="logo assistencia social">
+
+
+        <nav>
+            <label for="bt_menu"><img src="imagem/menu.png" alt="menu"></label> <!--menu responsivo-->
+            <input type="checkbox" id="bt_menu">
+            <ul id="menu">
+                <li><a href="index.html">Início</a></li>
+                
+                <li><a href="comentarios.html">Comentários</a></li>
+                
+                <li><a href="metadados.html">Metadados</a></li>
+                
+                <li><a href="#">Listas</a>
+                    <ul>
+                        <li><a href="lista_ordenada.htm">Lista ordenada</a></li>
+                        
+                        <li><a href="lista_nao_ordenada.html">Lista não ordenada</a></li>
+                        
+                        </ul>
+                    </li>
+                <li><a href="layout.htm">Layout</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+          </script>
+    </header>
+        <main id="conteudo">
+            
+            <ul id="breadcrumb">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="javascript:void(0)">Listas</a></li>
+                <li>Lista não ordenada</li>
+            </ul>
+
+            <h1 id="titulo">LISTA NÃO ORDENADA</h1>
+                <p>Uma lista não ordenada começa com a tag &lt;ul&gt;. Cada item da lista começa com a tag &lt;li&gt;.</p>
+                <p>Os itens da lista serão marcados com marcadores (pequenos círculos pretos) por padrão:</p>
+                <img src="imagem/ul.png">
+        </main>
+        
+        <footer id="rodape">
+            <p>Desenvolvido por Uriel Oliveira<br>
+            Todos os direitos reservados &copy; 2022.</p>
+            <ul id="mapa">  <!--MAPA-->
+                <li><a href="index.html">Início</a></li>
+                
+                <li><a href="comentarios.html">Comentários</a></li>
+                
+                <li><a href="metadados.html">Metadados</a></li>
+                
+                <li><a>Listas</a>
+                    <ul>
+                        <li><a href="lista_ordenada.htm">Lista ordenada</a></li>
+                        
+                        <li><a href="lista_nao_ordenada.html">Lista não ordenada</a></li>
+                        
+            </ul>
+        </footer>
+    
+</body>
+
+</html>
