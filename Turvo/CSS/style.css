@@ -14,6 +14,7 @@ body, html{
     overflow-x: hidden;
 }
 .menu{
+	
 	background-color: #131313;
 	position: fixed;
 	overflow: hidden;
@@ -62,7 +63,7 @@ body, html{
 	text-transform: capitalize;
 }
 .menu li:hover a, nav.menu li.active > a{
-	color: #fff;
+	color: rgb(255, 255, 255);
 	background-color: #282828;
 }
 nav{
@@ -90,4 +91,55 @@ nav{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-blend-mode: darken;
+}
+#acess{
+	position: fixed;
+	top: 95%;
+}
+.menu ul{
+	position: fixed;
+	top: 10%;
+
+}
+.w3-hover-opacity {
+	padding-left: 35%;
+}
+.paragrafoprincipal{
+	padding-left: 30%;
+}
+
+#rodape{
+	border: #8a8a8a;
+	
+		width: 100%;
+		height: auto;
+		background-color: #131313;
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		font-size: 0.7em;
+		text-align: center;
+	
+}
+#map{
+	padding-left: 15%;
+	border: #8a8a8a;
+	width: auto;
+	background-color: black;
+	color: white;
+	margin-bottom: 1%
+}
+
+/* .imagemquadro{
+	max-width: 100%;
+	max-height:100%;
+}
+.imagemindividual{
+	height: 200px;
+	wwidth: 200px;
+} */
+
+.novas{
+	
+	
+
 }
